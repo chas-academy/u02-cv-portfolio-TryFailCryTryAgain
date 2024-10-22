@@ -5,6 +5,10 @@ $Black: #313639;
 $Cyan: #00E5FF;
 $Pink: #FF00DD;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, html {
     padding: 0;
     margin: 0;
@@ -80,6 +84,7 @@ section h3 {
     background-color: $Blue;
     margin-top: 50px;
     height: 600px;
+    color: $White;
 }
 
 .Experience h3 {
