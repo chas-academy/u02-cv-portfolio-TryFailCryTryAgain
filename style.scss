@@ -1,5 +1,9 @@
- $section_color: blue;
-
+$Blue: #15212C;
+$Orange: #FF6A00;
+$White: #FAFAFA;
+$Black: #313639;
+$Cyan: #00E5FF;
+$Pink: #FF00DD;
 
 body, html {
     padding: 0;
@@ -9,11 +13,82 @@ body, html {
 body {
     height: 100vh;
     width: auto;
+    font-family: "Share Tech Mono";
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    background-color: $Blue;
+    height: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 0 24px;
+}
+
+.navbar_links {
+    color: $White;
+}
+
+.navbar_links:hover {
+    color: $Cyan;
+    transition: 0.2s 0.2s;
+}
+
+
 section {
-    background-color: aqua;
-    padding: 100px;
-    margin: 100px;
-    color: yellow;
+    height: 600px;
+    width: auto;
+}
+
+section h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Home_Section {
+    text-align: center;
+    background: rgb(21,33,44);
+    background: linear-gradient(180deg, rgba(21,33,44,1) 40%, rgba(56,53,37,1) 52%, rgba(118,88,25,1) 73%, rgba(154,108,19,1) 83%, rgba(169,117,16,1) 91%, rgba(255,166,0,1) 100%);
+}
+
+.Home_Section h3 {
+    color: $White;
+    font-weight: 400;
+}
+
+.About_Me {
+    text-align: center;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.About_Me p {
+    text-wrap: wrap;
+    padding: 0 200px;
+}
+
+
+.Experience {
+    background-color: $Blue;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.Experience h3 {
+    text-align: center;
+    color: $White;
+    font-weight: 400;
+}
+
+.copyright {
+    font-size: 12px;
+    padding-left: 10px;
 }

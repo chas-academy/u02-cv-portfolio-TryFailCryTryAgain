@@ -6,11 +6,80 @@ body, html {
 body {
   height: 100vh;
   width: auto;
+  font-family: "Share Tech Mono";
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -20px;
+  background-color: #15212C;
+  height: 100px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 0 24px;
+}
+
+.navbar_links {
+  color: #FAFAFA;
+}
+
+.navbar_links:hover {
+  color: #00E5FF;
+  transition: 0.2s 0.2s;
 }
 
 section {
-  background-color: aqua;
-  padding: 100px;
-  margin: 100px;
-  color: yellow;
+  height: 600px;
+  width: auto;
+}
+
+section h3 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Home_Section {
+  text-align: center;
+  background: rgb(21, 33, 44);
+  background: linear-gradient(180deg, rgb(21, 33, 44) 40%, rgb(56, 53, 37) 52%, rgb(118, 88, 25) 73%, rgb(154, 108, 19) 83%, rgb(169, 117, 16) 91%, rgb(255, 166, 0) 100%);
+}
+
+.Home_Section h3 {
+  color: #FAFAFA;
+  font-weight: 400;
+}
+
+.About_Me {
+  text-align: center;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.About_Me p {
+  text-wrap: wrap;
+  padding: 0 200px;
+}
+
+.Experience {
+  background-color: #15212C;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.Experience h3 {
+  text-align: center;
+  color: #FAFAFA;
+  font-weight: 400;
+}
+
+.copyright {
+  font-size: 12px;
+  padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */
