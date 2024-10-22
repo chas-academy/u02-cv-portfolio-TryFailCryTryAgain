@@ -1,0 +1,19 @@
+ $section_color: blue;
+
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+}
+
+section {
+    background-color: aqua;
+    padding: 100px;
+    margin: 100px;
+    color: yellow;
+}
