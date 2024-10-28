@@ -1,111 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
 </head>
 <body>
-    <header class="navbar">
+  <header>
+    <nav class="navbar">
+      <div class="brand-title">David Segerbo<em class="middle">.</em><em class="end">_</em></div>
+      
+      <!-- Checkbox for the toggle functionality -->
+      <input type="checkbox" id="toggle-menu" class="toggle-checkbox">
+      
+      <!-- Label for the checkbox, serving as the toggle button -->
+      <label for="toggle-menu" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      
+      <!-- Navbar Links -->
+      <div class="navbar-links">
         <ul>
-            <li><a href="#About_Me" class="navbar_links">//About Me</a></li>
-            <li><a href="#Projects" class="navbar_links">//Projects</a></li>
-            <li><a href="text.txt"download class="navbar_links">//CV</a></li>
-            <li><a href="#Experience" class="navbar_links">//Experience</a></li>
-            <li><a href="#Contact_Me" class="navbar_links">//Contact Me</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="" download>CV</a></li>
         </ul>
-    </header>
-    <div class="header2"></div>
-    <main>
-        <section class="Home_Screen">
-            <h1>TITLE, INSERT BLENDER IMG</h1>
-        </section>
-        <section id="About_Me" class="About_Me">
-            <div>
-                <h4>About Me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti, iste quod exercitationem, accusantium minus expedita atque praesentium eligendi quasi non placeat. Ratione corrupti aperiam deserunt quidem numquam quaerat iure.</p>
-            </div>        
-        </section>
-        <section id="Experience" class="Experience">
-            <table class="Languages">
-                <tr>
-                    <th>Languages</th>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                </tr>
-                <tr>
-                    <td>PHP</td>
-                </tr>
-            </table>
-            <table class="Preprocessors">
-                <tr>
-                    <th>Preprocessors</th>
-                </tr>
-                <tr>
-                    <td>SCSS</td>
-                </tr>
-                <tr>
-                    <td>SASS</td>
-                </tr>
-            </table>
-            <table class="FramWorks">
-                <tr>
-                    <th>FrameWorks</th>
-                </tr>
-                <tr>
-                    <td>TailWind</td>
-                </tr>
-                <tr>
-                    <td>Bootleg</td>
-                </tr>
-            </table>
-            <table class="Work_Experience">
-                <tr>
-                    <th>Work Experience</th>
-                </tr>
-                <tr>
-                    <td>Work 1</td>
-                </tr>
-                <tr>
-                    <td>Work 2</td>
-                </tr>
-                <tr>
-                    <td>Work 3</td>
-                </tr>
-                <tr>
-                    <td>Work 4</td>
-                </tr>
-            </table>
-       </section>
-       <section id="Projects" class="Projects">
-            <h3>Projects</h3>
-       </section>
-       <section id="Contact_Me" class="Contact_Me">
-            <h4>Contact</h4>
-            <ul>
-                <li>Github: Länk</li>
-                <li>LinkedIn: Länk</li>
-                <li>Tele: +46 727032004</li>
-                <li>E-mail: David.k.segerbo@gmail.com</li>
-            </ul>
-       </section>
-    </main>
-    <footer>
-        &copy; David Segerbo
-    </footer>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="section">
+        <h1>Home</h1>
+        <ul>
+            <li>Hello</li>
+            <li>This</li>
+            <li>is a</li>
+            <li>List</li>
+        </ul>
+    </section>
+
+
+    <section id="about" class="section">
+      <h1>About Me</h1>
+      <p>I am a versatile developer with a strong foundation in front-end and back-end technologies, including HTML, CSS, SCSS, JavaScript, and Lua. Proficient in Python and data structures, I excel at building structured, efficient code for both complex applications and game development using Pygame. With experience in tools like Figma, Visual Studio Code, GitHub, and GitHub Desktop, I am skilled in creating seamless user experiences, effective design prototypes, and collaborative version control workflows. I bring innovative problem-solving to projects, from enhancing UI/UX to optimizing code performance and ensuring robust application functionality.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <h1>Projects</h1>
+      <ul>
+        <li>Dungeon Crawler</li>
+        <li>RGB to Hex converter</li>
+        <li>Start Up</li>
+        <li>Calculators</li>
+        <li><a href="https://github.com/TryFailCryTryAgain/Projects">See more under my Github Repo</a></li>
+      </ul>
+    </section>
+
+    <section id="experience" class="section">
+      <h1>Experience</h1>
+      <p>This section highlights my professional experience, roles, and skills.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h1>Contact Me</h1>
+      <ul>
+        <li><a href="#Github">Github</a></li>
+        <li><a href="#LinkedIn">LinkedIn</a></li>
+        <li>E-mail: David.k.segerbo@gmail.com</li>
+        <li>Tel: +46 727032004</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
