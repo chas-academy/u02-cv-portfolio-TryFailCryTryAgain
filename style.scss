@@ -17,6 +17,7 @@ html, body {
 html {
     scroll-behavior: smooth;
     transition: 0.3s;
+    scroll-padding-top: 50px;
 }
 
 .navbar_element {
@@ -30,9 +31,9 @@ html {
     display: flex;
     justify-content: center;
     background-color: $Blue;
-    // position: sticky;
-    // top: 0;
-    // z-index: 100;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar ul li {
