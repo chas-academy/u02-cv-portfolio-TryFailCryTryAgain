@@ -175,7 +175,7 @@ body {
   color: #FAFAFA;
 }
 .section .experience_list li {
-  margin: 12px 0;
+  margin: 24px 0;
 }
 
 html {
@@ -196,7 +196,7 @@ html {
     text-wrap: warp;
   }
   .section .experience_list li {
-    margin-bottom: 1rem;
+    margin: 1.5rem 0;
   }
   .section p {
     font-size: 0.95rem;
