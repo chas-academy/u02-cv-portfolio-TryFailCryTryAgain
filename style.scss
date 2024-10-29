@@ -240,26 +240,22 @@ body {
   @media (max-width: 768px) {
     .section {
       padding: 1.5rem;
-      align-items: flex-start;
   
       h1 {
         font-size: 2rem;
-        text-align: center;
-        width: 100%;
       }
   
-      p, .experience_list li p {
+      p {
         font-size: 1rem;
-        line-height: 1.5;
-        text-align: left;
       }
-
       li a {
         text-wrap: warp;
       }
       .experience_list {
         list-style: none;
-        padding: 0 1rem;
+        padding: 0;
+        max-width: 600px;
+        width: 100%;
         
         li {
           margin-bottom: 1.5rem;
@@ -272,11 +268,11 @@ body {
       }
 
       .experience_list li {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
       }    
       p {
         font-size: 0.95rem;
-        line-height: 1.5;
+        line-height: 1.4;
       }
     }
   }
