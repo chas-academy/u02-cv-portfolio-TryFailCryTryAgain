@@ -225,6 +225,10 @@ body {
     .projects_title:active {
       color: $White;
     }
+
+    .experience_list li {
+      margin: 12px 0;
+    }
   }
   
   // Smooth scroll behavior for anchor elements
@@ -252,6 +256,7 @@ body {
 
 
 // Footer Styling
+
 .footer {
   background-color: $Blue;
   background: linear-gradient(0deg, $Cyan 0%, $Blue 25%);
@@ -264,19 +269,36 @@ body {
   .footer-content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 2rem;
 
     .footer-section {
+      display: flex;
+      flex-direction: column;
       flex: 1;
       max-width: 300px;
       margin-bottom: 1rem;
 
       h2 {
         font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      #white {
+        color: $White;
+      }
+
+      #pink {
+        color: $Pink;
+      }
+
+      #cyan {
         color: $Cyan;
-        margin-bottom: 0.5rem;
+      }
+
+      .h2 {
+        color: $Cyan;
       }
 
       p {
@@ -319,7 +341,7 @@ body {
 // Responsive adjustments for mobile alignment
 @media (max-width: 768px) {
   .footer {
-    padding: 1.5rem 2rem; // Match padding with section padding on mobile
+    padding: 1.5rem 2rem;
 
   }
 
