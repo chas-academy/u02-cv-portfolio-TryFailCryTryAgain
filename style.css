@@ -45,6 +45,9 @@ body {
 .navbar .brand-title .end {
   color: #00E5FF;
 }
+.navbar .brand-title .brand-title-pink {
+  color: #FF00DD;
+}
 .navbar .navbar-links ul {
   display: flex;
   list-style: none;
@@ -97,7 +100,7 @@ body {
   }
   .navbar .toggle-button {
     display: flex;
-    margin-left: 48px;
+    margin-left: 24px;
   }
   .navbar .toggle-checkbox:checked ~ .navbar-links {
     display: flex;
@@ -170,31 +173,24 @@ html {
   }
 }
 .footer {
-  background: #15212C;
-  background: linear-gradient(0deg, rgb(0, 229, 255) 0%, rgb(21, 33, 44) 25%);
+  background-color: #15212C;
   color: #FAFAFA;
-  padding: 2rem 20rem;
+  padding: 2rem 1rem;
   font-family: "Share Tech Mono", sans-serif;
+  text-align: center;
+  width: 100%;
 }
 .footer .footer-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 .footer .footer-content .footer-section {
   flex: 1;
-  min-width: 200px;
+  max-width: 300px;
   margin-bottom: 1rem;
-}
-.footer .footer-content .footer-section .start {
-  color: #FAFAFA;
-}
-.footer .footer-content .footer-section .middle {
-  color: #FF00DD;
-}
-.footer .footer-content .footer-section .end {
-  color: #00E5FF;
 }
 .footer .footer-content .footer-section h2 {
   font-size: 1.5rem;
@@ -202,7 +198,6 @@ html {
   margin-bottom: 0.5rem;
 }
 .footer .footer-content .footer-section p {
-  max-width: 300px;
   line-height: 1.6;
 }
 .footer .footer-content .footer-section ul {
@@ -231,12 +226,15 @@ html {
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 2rem;
+  }
   .footer-content {
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
   .footer-content .footer-section {
+    width: auto;
     margin-bottom: 1rem;
   }
   .footer-bottom p {
