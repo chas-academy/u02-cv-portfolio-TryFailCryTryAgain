@@ -195,6 +195,13 @@ html {
   .section li a {
     text-wrap: warp;
   }
+  .section .experience_list li {
+    margin-bottom: 1rem;
+  }
+  .section p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 }
 .footer {
   background-color: #15212C;
@@ -266,6 +273,8 @@ html {
 @media (max-width: 768px) {
   .footer {
     padding: 1.5rem 2rem;
+    background-color: #15212C;
+    background: linear-gradient(0deg, #00E5FF 0%, #15212C 10%);
   }
   .footer-content {
     flex-direction: column;
