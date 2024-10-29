@@ -185,18 +185,33 @@ html {
 @media (max-width: 768px) {
   .section {
     padding: 1.5rem;
+    align-items: flex-start;
   }
   .section h1 {
     font-size: 2rem;
+    text-align: center;
+    width: 100%;
   }
-  .section p {
+  .section p, .section .experience_list li p {
     font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
   }
   .section li a {
     text-wrap: warp;
   }
   .section .experience_list {
-    margin: 1rem 0;
+    list-style: none;
+    padding: 0 1rem;
+    max-width: 600px;
+    width: 100%;
+  }
+  .section .experience_list li {
+    margin-bottom: 1.5rem;
+  }
+  .section .experience_list li p {
+    text-align: left;
+    margin: 0;
   }
   .section .experience_list li {
     margin-bottom: 1rem;

@@ -240,19 +240,37 @@ body {
   @media (max-width: 768px) {
     .section {
       padding: 1.5rem;
+      align-items: flex-start;
   
       h1 {
         font-size: 2rem;
+        text-align: center;
+        width: 100%;
       }
   
-      p {
+      p, .experience_list li p {
         font-size: 1rem;
+        line-height: 1.5;
+        text-align: left;
       }
+
       li a {
         text-wrap: warp;
       }
       .experience_list {
-        margin: 1rem 0;
+        list-style: none;
+        padding: 0 1rem;
+        max-width: 600px;
+        width: 100%;
+        
+        li {
+          margin-bottom: 1.5rem;
+      
+          p {
+            text-align: left;
+            margin: 0;
+          }
+        }
       }
 
       .experience_list li {
