@@ -9,6 +9,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.section#home {
+  position: relative;
+  overflow: hidden;
+}
+.section#home video {
+  width: 120%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 768px) {
+  .section#home video {
+    height: 100vh;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -16,6 +32,7 @@ body {
   padding: 1rem 2rem;
   background-color: #15212C;
   color: #FAFAFA;
+  z-index: 100;
 }
 .navbar .brand-title {
   font-size: 1.5rem;
@@ -147,5 +164,8 @@ html {
   }
   .section p {
     font-size: 1rem;
+  }
+  .section li a {
+    text-wrap: warp;
   }
 }/*# sourceMappingURL=style.css.map */

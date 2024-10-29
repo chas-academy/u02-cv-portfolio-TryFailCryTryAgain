@@ -19,6 +19,25 @@ body {
   font-family: Arial, sans-serif;
 }
 
+// Video styling to make it responsive
+.section#home {
+    position: relative;
+    overflow: hidden;
+  
+    video {
+      width: 120%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    // Adjust height for mobile to maintain aspect ratio
+    @media (max-width: 768px) {
+      video {
+        height: 100vh;
+      }
+    }
+  }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,6 +45,7 @@ body {
   padding: 1rem 2rem;
   background-color: $Blue;
   color: $White;
+  z-index: 100;
 
   .brand-title {
     font-size: 1.5rem;
@@ -122,6 +142,7 @@ body {
 
 // Import the navbar styles here if they’re in a separate file
 
+
 // General section styling
 .section {
     display: flex;
@@ -192,6 +213,9 @@ body {
   
       p {
         font-size: 1rem;
+      }
+      li a {
+        text-wrap: warp;
       }
     }
   }
