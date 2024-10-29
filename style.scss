@@ -251,8 +251,12 @@ body {
       li a {
         text-wrap: warp;
       }
+      .experience_list {
+        margin: 1rem 0;
+      }
+
       .experience_list li {
-        margin: 1.5rem 0;
+        margin-bottom: 1rem;
       }    
       p {
         font-size: 0.95rem;

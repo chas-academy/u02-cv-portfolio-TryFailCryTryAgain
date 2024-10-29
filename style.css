@@ -195,8 +195,11 @@ html {
   .section li a {
     text-wrap: warp;
   }
+  .section .experience_list {
+    margin: 1rem 0;
+  }
   .section .experience_list li {
-    margin: 1.5rem 0;
+    margin-bottom: 1rem;
   }
   .section p {
     font-size: 0.95rem;
