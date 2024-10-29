@@ -199,6 +199,32 @@ body {
         color: $Cyan;
         transition: 0.5s;
     }
+
+    table {
+      justify-content: center;
+    }
+
+    table tr td b {
+      color:$Pink;
+    }
+
+    table tr th, td {
+      padding: 0.5rem;
+      text-align: left;
+    }
+    table tr th {
+      font-size: large;
+      color: $Cyan;
+    }
+
+    .projects_title {
+      color: $White;
+      text-decoration: none;
+    }
+
+    .projects_title:active {
+      color: $White;
+    }
   }
   
   // Smooth scroll behavior for anchor elements
@@ -223,6 +249,8 @@ body {
       }
     }
   }
+
+
 // Footer Styling
 .footer {
   background-color: $Blue;

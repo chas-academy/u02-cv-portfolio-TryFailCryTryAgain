@@ -153,6 +153,27 @@ body {
   color: #00E5FF;
   transition: 0.5s;
 }
+.section table {
+  justify-content: center;
+}
+.section table tr td b {
+  color: #FF00DD;
+}
+.section table tr th, .section td {
+  padding: 0.5rem;
+  text-align: left;
+}
+.section table tr th {
+  font-size: large;
+  color: #00E5FF;
+}
+.section .projects_title {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.section .projects_title:active {
+  color: #FAFAFA;
+}
 
 html {
   scroll-behavior: smooth;
