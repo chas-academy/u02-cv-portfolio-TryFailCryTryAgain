@@ -135,6 +135,7 @@ body {
   line-height: 1.6;
   font-size: 1.2rem;
   text-align: left;
+  font-family: sans-serif;
 }
 .section ul li {
   max-width: 600px;
@@ -247,6 +248,9 @@ html {
   color: #FAFAFA;
 }
 .footer .footer-content .footer-section #pink {
+  color: #FF00DD;
+}
+.footer .footer-content .footer-section #pinkest {
   color: #FF00DD;
 }
 .footer .footer-content .footer-section #cyan {
