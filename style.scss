@@ -31,7 +31,6 @@ body {
       object-fit: cover;
     }
   
-    // Adjust height for mobile to maintain aspect ratio
     @media (max-width: 768px) {
       video {
         height: 100vh;
@@ -131,23 +130,21 @@ body {
       }
     }
 
-    // Show the hidden toggle button
+    // Shows the hidden toggle button
     .toggle-button {
       display: flex;
       margin-left: 24px;
     }
 
-    // Display navbar links when checkbox is checked
+    // Display navbar links when the checkbox button is pressed
     .toggle-checkbox:checked ~ .navbar-links {
       display: flex;
     }
   }
 }
 
-// Import the navbar styles here if they’re in a separate file
 
-
-// General section styling
+// The general section styling of each block
 .section {
     display: flex;
     justify-content: center;
@@ -232,7 +229,7 @@ body {
     }
   }
   
-  // Smooth scroll behavior for anchor elements
+  // Smooth scroll behavior for the navbar
   html {
     scroll-behavior: smooth;
   }
