@@ -53,3 +53,8 @@ classroom.github.com
 
 **Kompetenser**
 Arbeta som Fullstack Webbutvecklare med HTML & CSS
+
+
+**Notes**
+I SCSS validationen kommer det en varning gällande -o-object-fit:cover; 
+Den dyker upp gällande indraget av SCSS men den är inte erkänd i CSS validator. (linje 19 i style.css)
